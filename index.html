@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>To-do Today:</title>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <link href="styles/styles.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="header">
+        <div class="ccontainer">
+                <h1 class="header__title">Today is a perfect day for</h1>
+                <h1 class="header__title"> a perfect day</h1>
+            </div>
+        </div>
+     <div class="container">
+            <div id="todos"></div>
+            <form id="new-todo">
+                <input type="text" class="input" placeholder="Something to do" name="text">
+                <button id="add" class="button">Add To-do</button>
+                <div class="hide-checkbox">
+                <label class="checkbox">
+                        <input type="checkbox" id="hide-completed"> Hide completed
+                    </label>
+                </div>
+            </form>
+        </div>
+
+        <script src="/scripts/uuidv4.js"></script>
+        <script src="/scripts/todo-functions.js"></script>
+        <script src="/scripts/todo-app.js"></script>
+    </body>
+</html>
