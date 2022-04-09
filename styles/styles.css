@@ -24,11 +24,18 @@ html {
 }
 
 body {
-    background: red url(/images/laven.jpg);
+    background: url(/images/laven.jpg);
     background-size: cover;
-  color: #d57287;
-  font-size: 1.6rem;
-  text-align: center;
+    color: #d57287;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.main {
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(233,132,124, 0.8);
+
 }
 
 button {
