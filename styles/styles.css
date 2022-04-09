@@ -24,7 +24,7 @@ html {
 }
 
 body {
-    background: url(..images/laven.jpg);
+    background: url(../images/laven.jpg);
     background-size: cover;
     color: #d57287;
     font-size: 1.6rem;
