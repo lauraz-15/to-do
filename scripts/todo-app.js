@@ -14,6 +14,7 @@ renderTodos(todos, filters)
 //     renderTodos(todos, filters)
 // })
 
+
 document.querySelector('#new-todo').addEventListener('submit', (e) => {
     const text = e.target.elements.text.value.trim()
     e.preventDefault()
